@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier d'Achat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="panier-container">
+    <h1>Mon Panier</h1>
+    <div class="panier-item" data-id="1">
+      <p class="product-name">Riz</p>
+      <p class="product-price">15000FCFA</p>
+      <div class="quantity-controls">
+        <button class="decrease">-</button>
+        <span class="quantity">1</span>
+        <button class="increase">+</button>
+      </div>
+      <button class="remove-item">Supprimer</button>
+      <button class="favorite-btn">&#10084;</button>
+    </div>
+
+    <div class="panier-item" data-id="2">
+      <p class="product-name">Chapeau</p>
+      <p class="product-price">10000FCFA</p>
+      <div class="quantity-controls">
+        <button class="decrease">-</button>
+        <span class="quantity">1</span>
+        <button class="increase">+</button>
+      </div>
+      <button class="remove-item">Supprimer</button>
+      <button class="favorite-btn">&#10084;</button>
+    </div>
+
+    <div class="total">
+      <p>Total : <span class="total-price">25000FCA</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
